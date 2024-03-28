@@ -1,0 +1,16 @@
+.display {
+    display: inline-flex;
+    position: relative;
+    margin-left: 40px;
+    left: 39%;
+}   
+.name {
+  color: rgb(102, 102, 102);
+  position: relative;
+  top: 38px;
+  font-family:'MontserratS';
+}
+.name:hover {
+    color: rgb(150, 150, 150);
+    cursor: pointer;
+}

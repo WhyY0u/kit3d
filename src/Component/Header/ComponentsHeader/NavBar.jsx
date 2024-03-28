@@ -1,10 +1,10 @@
 import React from 'react'
+import styles from "./NavBar.module.css"
 
 function NavBar({text, url}) {
   return (
-    <div>
-     <p>{text}</p>
-      
+    <div className={styles.display}>
+     <p className={styles.name}>{text}</p>
     </div>
   )
 }

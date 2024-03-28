@@ -2,3 +2,7 @@
   font-family: "MontserratB";
   src: url("assets/Font/Montserrat-Bold.ttf");
 }
+@font-face {
+  font-family: "MontserratS";
+  src: url("assets/Font/Montserrat-SemiBold.ttf");
+}
