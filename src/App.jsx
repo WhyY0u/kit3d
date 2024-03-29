@@ -1,6 +1,10 @@
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
 import styles from './App.module.css'
 import Header from './Component/Header/Header'
 import './index.css'
+import Home from './Component/Home/Home'
+import Products from './Component/Products/Products'
+import About from './Component/About/About'
 
 function App() {
 
@@ -8,8 +12,19 @@ function App() {
     <>
     <div>
       <header>
-        <Header></Header>
+      <Header/>
       </header>
+
+      <main>
+      <Routes>
+      <Route path={'/'} element={<Home />} />
+      <Route path={'/products'} element={<Products />} />
+      <Route path={'/about'} element={<About />} />
+      </Routes>
+      </main>
+      <footer>
+        
+      </footer>
     </div>
     </>
   )

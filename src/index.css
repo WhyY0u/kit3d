@@ -6,3 +6,7 @@
   font-family: "MontserratS";
   src: url("assets/Font/Montserrat-SemiBold.ttf");
 }
+@font-face {
+  font-family: "InterL";
+  src: url("assets/Font/Inter-Light.ttf");
+}

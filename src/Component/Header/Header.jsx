@@ -1,13 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from "./Header.module.css"
-import NavBar from './ComponentsHeader/NavBar';
-
+import NavBar from './ComponentsHeader/NavBar/NavBar';
+import Menu from './ComponentsHeader/Menu/Menu';
 function Header() {
   const bar =[
-    {text: "Home", url: "/home"},
+    {text: "Home", url: "/"},
     {text: "Products", url: "/products"},
     {text: "About us", url: "/about"}
   ];
+
+
+  
   return (
     <div className={styles.background}>
         <p className={styles.text}>KIT3D</p>
@@ -15,9 +18,7 @@ function Header() {
         {bar.map((b) =>
         <NavBar text={b.text} url={b.url}></NavBar>
         )}
-        <img className={styles.login} src='src/assets/img/login.jpeg' about='login'/>
-        <img className={styles.basket} src='src/assets/img/basket.jpeg' about='basket'/>
-        <img className={styles.search} src='src/assets/img/search.jpeg' about='search'/>
+        <Menu/>
 
   
     </div>
