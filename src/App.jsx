@@ -5,6 +5,7 @@ import './index.css'
 import Home from './Component/Home/Home'
 import Products from './Component/Products/Products'
 import About from './Component/About/About'
+import Footer from './Component/Footer/Footer'
 
 function App() {
 
@@ -23,7 +24,7 @@ function App() {
       </Routes>
       </main>
       <footer>
-        
+        <Footer/>
       </footer>
     </div>
     </>

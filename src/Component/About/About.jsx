@@ -6,13 +6,14 @@ function About() {
     <>
     <div className={styles.content}>
     <img src="src/assets/img/coledgphoto.png" about='photo' className={styles.photo}/>
+    <div className={styles.blured}>
     <p className={styles.text}>Where can you find us?</p>
     </div>
+    </div>
     <div className={styles.container}>
+    <p className={styles.infotext}>Info</p>
     <img src="src/assets/img/information.png" about='info' className={styles.info}/>
     <p className={styles.maptext}>Our location</p>
-    <p className={styles.infotext}>Info</p>
-
     <div className={styles.mappos}>
     <div className={styles.map}>
     <iframe 

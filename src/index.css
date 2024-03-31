@@ -10,3 +10,7 @@
   font-family: "InterL";
   src: url("assets/Font/Inter-Light.ttf");
 }
+@font-face {
+  font-family: "MontserratR";
+  src: url("assets/Font/Montserrat-Regular.ttf");
+}

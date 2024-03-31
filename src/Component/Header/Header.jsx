@@ -14,7 +14,7 @@ function Header() {
   return (
     <div className={styles.background}>
         <p className={styles.text}>KIT3D</p>
-        <img className={styles.logo} src='src/assets/img/logo.jpeg' about='logo'/>         
+        <img className={styles.logo} src='src/assets/img/logo.jpeg' about='logo'/>     
         {bar.map((b) =>
         <NavBar text={b.text} url={b.url}></NavBar>
         )}
